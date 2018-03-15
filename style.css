@@ -1,0 +1,52 @@
+body {
+     margin: auto;
+     text-align: center;  
+}
+
+.banner {
+    margin-top: 30px;
+   /* max-width: 1480;
+    max-height: 440px;*/
+}
+.page {
+    margin: 20px;
+    height: 700px;
+    border: 1px solid black;
+    overflow: auto; 
+}
+
+.search-container {
+    margin-top: 30px;  
+    
+}
+
+.logo {
+    background-color: blue;
+    max-width: 36px;
+    max-height: 36px;
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.logo-container {
+   max-width: 1480px;
+   margin: auto;  
+}
+
+.copyright {
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
