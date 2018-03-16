@@ -10,40 +10,45 @@ h1 {
 
 .banner {
     margin-top: 30px;
-   /* max-width: 1480;
-    max-height: 440px;*/
+  
 }
 .page {
     margin: 20px;
     height: 700px;
     border: 1px solid black;
-    overflow: auto; 
+    overflow: auto;
+    position: relative;    
 }
 
 .search-container {
     margin-top: 30px;  
+    position: relative;
     
 }
 
 .logo {
-    background-color: blue;
     max-width: 36px;
     max-height: 36px;
     display: inline-block;
     float: right;
-    margin-right: 5px;
-    margin-top: 40px;
+    margin-right: 20px;
 }
 
 .logo-container {
    max-width: 1480px;
-   margin: auto;  
+   height: 80px;
+   margin: auto; 
+   position: relative;
+   bottom: -40px;
+
 }
 
 .copyright {
-    text-align: center;
+    
     clear: both;
-    margin: 0 auto;
+    position: absolute;
+    left: 700px;
+    bottom: 10px;
 }
 
 
